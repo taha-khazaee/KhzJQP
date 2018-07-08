@@ -123,7 +123,7 @@
 		        "id": 'imageList'
 		    }).appendTo(imageListContainer);		    
 		    var Iframe = $('<iframe/>', {
-		        src: "../../../DemoPages/editor/PhotoGallery/index.html",
+		        src: "../../DemoPages/editor/PhotoGallery/index.html",
 		        style: 'border:none;width:100%;height:500px;',
 		        id: "imageframe"
 		    });		    	        
@@ -1589,7 +1589,7 @@
 		        id: "imgErrMsg"
 		    }));		    
 		    var Iframe = $('<iframe/>', {
-		        src: "../../../DemoPages/editor/PreviewHtml/index.html",
+		        src: "../../DemoPages/editor/PreviewHtml/index.html",
 		        style: 'border:none;width:100%;height:500px;',
 		        id: "layoutframe"
 		    });		    
