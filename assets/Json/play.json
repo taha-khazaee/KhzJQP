@@ -10,14 +10,14 @@
             "code": 0,
             "title": "Painting",
             "description": "Look at this beautiful painting",
-            "image": "../image/game/sky.jpg",
+            "image": "../../image/game/sky.jpg",
             "tag": "art"
         },
         {
             "code": 2,
             "title": "Let's have fun",
             "description": "Listen to the music",
-            "sound": "../audio/game/sound.mp3",
+            "sound": "../../audio/game/sound.mp3",
             "tag": "fun"
         },
         {
@@ -30,7 +30,7 @@
             "code": 0,
             "title": "Sports",
             "description": "Have you ever played one of theses sports?",
-            "image": "../image/game/sport.jpg",
+            "image": "../../image/game/sport.jpg",
             "tag": "sport"
         }
     ]

@@ -9,12 +9,11 @@ function InitializeCard(cards){
 }
    
 function Main(){
-    var Api = 'http://www.mocky.io/v2/5b420df32e00005300222f09';
+    var Api = 'http://www.mocky.io/v2/5b42131e2e00005d00222f0d';
     $.ajax({
         url: Api,
         method: 'GET',
-        success: function (data) {
-            console.log(data);
+        success: function (data) {            
             var insidebody=[];   
             var tagclass='';
             var extraElements='';
