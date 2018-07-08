@@ -20,7 +20,7 @@ Every plugin has a demo file
 ### And coding style tests
 Explain what these tests test and why<br>
 All Plugins Have Commenting and initialization Function That Can Be Costumize
-## Authors
+## Author
 * **Taha Khazaee** - *Initial work* - [tahakhz](http://tahakhz.com/)
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/taha-khazaee/KhzJQP/blob/master/LICENSE) file for details
