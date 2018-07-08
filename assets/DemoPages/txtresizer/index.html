@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--rendered-->
     <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="../../css/plugins/game/game.css">
+    <link rel="stylesheet" href="../../css/plugins/txtresizer/TextResizer.css">
 </head>
 <body>
      <header>
@@ -21,13 +21,13 @@
               <a class="nav-link disabled" href="../../../index.html">Home</a>
             </li>
               <li class="nav-item">
-              <a class="nav-link active" href="index.html">Game<span class="sr-only">(current)</span></a>
+              <a class="nav-link disabled" href="index.html">Game<span class="sr-only">(current)</span></a>
             </li> 
             <li class="nav-item disabled">
               <a class="nav-link" href="../editor/index.html">Text Editor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Text Resizer</a>
+              <a class="nav-link active" href="index.html">Text Resizer</a>
             </li> 
               <li class="nav-item">
               <a class="nav-link disabled" href="#">Video Player</a>             
@@ -43,7 +43,36 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-      <div class="pt-4 pb-2 cards">       
+      <div class="mt-100px">    
+          <div class="textresize">
+        <h1>title</h1>
+        <p>test</p>
+        <ul>
+            <li>list one</li>
+            <li>list two</li>
+        </ul>
+        <b>
+            - Bold text</b>
+            <strong>
+                - Important text</strong>
+                <i>
+                    - Italic text</i>
+                    <em>
+                        - Emphasized text</em>
+                        <mark>
+                            - Marked text</mark>
+                            <small>
+                                - Small text</small>
+                                <del>
+                                    - Deleted text</del>
+                                    <ins>
+                                        - Inserted text</ins>
+                                        <sub>
+                                            - Subscript text</sub>
+                                            <sup>
+                                                - Superscript text</sup>
+                                                
+    </div>
       </div>      
     </main>
 
@@ -57,6 +86,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"       crossorigin="anonymous"></script>
     <!--rendered-->
-    <script src="../../js/plugins/game/game.js" type="text/x-javascript"></script> 
+    <script src="../../js/plugins/txtresizer/TextResizer.js" type="text/x-javascript"></script> 
+    <script>
+        $(document).ready(function () {
+            TextResize();
+        });    
+    </script>
 </body>
 </html>

@@ -1,0 +1,24 @@
+﻿.textresize{
+    font-size: 50px;
+}
+.resizer {
+    background-color: white; 
+    border: none;
+    border-radius:50%;
+    position:fixed;
+    top:25%;
+    right:5%;    
+    color: #008CBA;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #008CBA; 
+    font-size: 25px; 
+    cursor:pointer;
+    outline:none;
+        }
+        .resizer:hover {
+    background-color: #008CBA;    
+    color: white;
+}
